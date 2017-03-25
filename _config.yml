@@ -3,7 +3,7 @@ title: Alejandro Casale
 email: "casalealejandronicolas@gmail.com"
 description: "Descripción"
 url: "https://alvarmaciel.github.io/alejandrocasale"
-baseurl: "" #"/alejandrocasale"
+baseurl: "/alejandrocasale"
 facebook_username: "alejandro.casale"
 twitter_username: ""
 instagram_username: "alecasaleale"
