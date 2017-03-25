@@ -1,21 +1,31 @@
 ---
 layout: page
 title: "album"
-description: "masonry"
+description: "Pinturas"
 active: gallery
 header-img: "img/gallery-bg.jpg"
-album-title: "my 2nd album"
+album-title: "Pinturas"
 images:
- - image_path: /gallery/archive/g02/bg1.jpg
+ - image_path: /gallery/archive/g02/pnt01.jpg
    caption: IMAGE TITLE
    mfp-title: IMAGE TITLE
-   copyright: © photorama
- - image_path: /gallery/archive/g02/bg2.jpg
+   copyright: © Alejandro Casale
+ - image_path: /gallery/archive/g02/pnt02.jpg
    caption: IMAGE TITLE
-   copyright: © photorama
- - image_path: /gallery/archive/g02/bg3.jpg
+   mfp-title: IMAGE TITLE
+   copyright: © Alejandro Casale
+ - image_path: /gallery/archive/g02/pnt03.jpg
    caption: IMAGE TITLE
-   copyright: © photorama
+   mfp-title: IMAGE TITLE
+   copyright: © Alejandro Casale
+ - image_path: /gallery/archive/g02/pnt04.jpg
+   caption: IMAGE TITLE
+   mfp-title: IMAGE TITLE
+   copyright: © Alejandro Casale
+ - image_path: /gallery/archive/g02/pnt05.jpg
+   caption: IMAGE TITLE
+   mfp-title: IMAGE TITLE
+   copyright: © Alejandro Casale
 ---
 
 <html class="no-js" lang="en">
@@ -39,8 +49,8 @@ images:
 				<figure class="gallery-item">
 					<header class='gallery-icon'>
 
-<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+<a href="{{ site.url }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ site.url }}{{ image.image_path }}"></a>
 						
 					</header>	
 					<figcaption class='gallery-caption'>

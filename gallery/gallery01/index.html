@@ -1,20 +1,15 @@
 ---
 layout: page
 title: "album"
-description: "masonry"
+description: "dibujos"
 active: gallery
 header-img: "img/gallery-bg.jpg"
-album-title: "my 1st album"
+album-title: "Dibujos"
 images:
- - image_path: /gallery/archive/g01/bg1.jpg
-   caption: IMAGE TITLE
-   copyright: © photorama
- - image_path: /gallery/archive/g01/bg2.jpg
-   caption: IMAGE TITLE
-   copyright: © photorama
- - image_path: /gallery/archive/g01/bg3.jpg
-   caption: IMAGE TITLE
-   copyright: © photorama
+ - image_path: /gallery/archive/g01/db01.jpg
+   caption: SEÑORA
+   copyright: © Alejandro Casale
+ 
 ---
 
 <html class="no-js" lang="en">
@@ -38,8 +33,8 @@ images:
 				<figure class="gallery-item">
 					<header class='gallery-icon'>
 
-<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup"  title="{{ image.caption }}" data-caption="{{ image.copyright }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+<a href="{{ site.url }}{{ image.image_path }}" class="popup"  title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ site.url }}{{ image.image_path }}"></a>
 						
 					</header>	
 					<figcaption class='gallery-caption'>
