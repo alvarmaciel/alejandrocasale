@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://alvarmaciel.github.io/alejandrocasale/gallery/"  
-  - JOURNAL: "https://alvarmaciel.github.io/alejandrocasale/journal/"
-  - ABOUT: "https://alvarmaciel.github.io/alejandrocasale/about/"
+  - GALERÍA: "https://alvarmaciel.github.io/alejandrocasale/gallery/"  
+  - DIARIO: "https://alvarmaciel.github.io/alejandrocasale/journal/"
+  - SOBRE MI: "https://alvarmaciel.github.io/alejandrocasale/about/"
 
 # All translation keys
 translations:
